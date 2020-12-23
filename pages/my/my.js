@@ -20,6 +20,11 @@ Page({
       {icon:"我的求购.png", name:"我的求购"}
     ],
   },
+  goTosetting:function(){
+    wx.navigateTo({
+      url: '/pages/setting/setting',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

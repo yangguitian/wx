@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/setting/setting",
+    "pages/home/home",
     "pages/my/my",
+    "pages/setting/setting",
     "pages/category/category",
     "pages/classification/classification",
-    "pages/home/home",
     "pages/logs/logs",
     "pages/index/index"
   ],

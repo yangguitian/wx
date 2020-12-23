@@ -1,9 +1,7 @@
 <!--pages/my/my.wxml-->
 <view class="bg">
   <view class="btn-area">
-    <navigator url="/pages/setting/setting">
-      <van-icon class="icon01" name="setting-o" size="2em" />
-    </navigator>
+      <van-icon class="icon01" name="setting-o" size="2em" bindtap="goTosetting" />
   </view>
   <view class="box-user">
     <view class="user-icon"></view>

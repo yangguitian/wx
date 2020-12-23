@@ -1,6 +1,6 @@
 <!--pages/setting/setting.wxml-->
 <view class="header">
-  <van-icon class="icon-left" size="1.5em" color="white" name="arrow-left" />
+  <van-icon class="icon-left" size="1.5em" color="white" name="arrow-left" bindtap="Back" />
   <view class="font">设置</view>
 </view>
 <view class="cell">

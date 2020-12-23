@@ -1,31 +1,77 @@
 <!--pages/home/home.wxml-->
 <!--search 事件在用户点击键盘上的搜索按钮触发。cancel 事件在用户点击搜索框右侧取消按钮时触发-->
-
-<van-search
-  value="{{ value }}"
-  placeholder="请输入搜索关键词"
-  show-action
-  input-align="center"
-  bind:search="onSearch"
-  bind:cancel="onCancel"
-/>
-<swiper indicator-dots="ture" autoplay="ture" interval="3000" circular="ture" indicator-color="#fff" indicator-active-color="#ff410f">
-<swiper-item>
-  <image src="../../images/星际2.jpg" style="width:100%;" ></image>
-</swiper-item>
-<swiper-item>
-  <image src="../../images/星际3.jpg" style="width:100%;"></image>
-</swiper-item><swiper-item>
-  <image src="../../images/星际4.jpg" style="width:100%;"></image>
-</swiper-item>
+<!--搜索-->
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" show-action input-align="center" bind:search="onSearch"
+  bind:cancel="onCancel" />
+<!--轮播-->
+<swiper indicator-dots="ture" autoplay="ture" interval="3000" circular="ture" indicator-color="#fff"
+  indicator-active-color="#ff410f">
+  <swiper-item>
+    <image src="../../images/星际2.jpg" style="width:100%;"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/星际3.jpg" style="width:100%;"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/星际4.jpg" style="width:100%;"></image>
+  </swiper-item>
 </swiper>
 
-<!-- menu btn -->
+<!-- menu btn 4*2 -->
 <view class="menu">
-  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/classification/classification" open-type="switchTab" wx:key="item">
+  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/classification/classification" open-type="switchTab"
+    wx:key="item">
     <image class="menuicon" src="/images/图标/{{item.icon}}"></image>
     <text class="menutext">{{item.name}}</text>
   </navigator>
 </view>
-  
-  
+
+<!--福利专区-->
+<view class="welfare">
+  <view class="welfare-font">
+    <view class="welfare-font-box">福利专区</view>
+  </view>
+  <view class="welfare-showboxs">
+    <view class="welfare-showbox">
+      <view class="welfare-showbox-font">
+        <view class="top">优惠卷</view>
+        <view class="middle">福利多多</view>
+        <view class="button">点击进入</view>
+      </view>
+      <view class="welfare-picbox">
+        <image class="welfare-image" src="/images/图标/优惠卷1.png"></image>
+      </view>
+    </view>
+
+    <view class="welfare-showbox">
+      <view class="welfare-showbox-font">
+        <view class="top">兼职</view>
+        <view class="middle">校园兼职</view>
+        <view class="button">点击进入</view>
+      </view>
+      <view class="welfare-picbox">
+        <image class="welfare-image" src="/images/图标/兼职.png"></image>
+      </view>
+    </view>
+    <view class="welfare-showbox">
+      <view class="welfare-showbox-font">
+        <view class="top">求购</view>
+        <view class="middle">需求信息</view>
+        <view class="button">点击进入</view>
+      </view>
+      <view class="welfare-picbox">
+        <image class="welfare-image" src="/images/图标/求购.png"></image>
+      </view>
+    </view>
+    <view class="welfare-showbox">
+      <view class="welfare-showbox-font">
+        <view class="top">资讯</view>
+        <view class="middle">最新动态</view>
+        <view class="button">点击进入</view>
+      </view>
+      <view class="welfare-picbox">
+        <image class="welfare-image" src="/images/图标/资讯.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
