@@ -1,0 +1,35 @@
+/* pages/setting/setting.wxss */
+page{
+  background-color: #f8f8f8;
+}
+.header {
+  position: relative;
+  display: flex;
+  widows: 100%;
+  height: 40px;
+  background-color: #f06c7a;
+}
+.icon-left {
+  position: absolute;
+  margin: 7px;
+}
+.font {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  font-size: 30rpx;
+  color: rgb(255, 255, 255);
+}
+.cell {
+  margin-top: 10px;
+}
+.cell-two {
+  margin-top: 10px;
+}
+.van-button {
+  margin-top: 20px;
+}
+.van-button__text {
+  color: #f06c7a;
+}

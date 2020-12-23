@@ -1,0 +1,19 @@
+<!--pages/setting/setting.wxml-->
+<view class="header">
+  <van-icon class="icon-left" size="1.5em" color="white" name="arrow-left" />
+  <view class="font">设置</view>
+</view>
+<view class="cell">
+  <van-cell title="个人资料" is-link />
+  <van-cell title="收货地址" is-link />
+  <van-cell title="实名认证" is-link />
+</view>
+<view class="cell-two">
+  <van-cell title="清除缓存" is-link value="0M" />
+  <van-cell title="关于柚子校园" is-link />
+  <van-cell title="联系我们" is-link />
+  <van-cell title="当前版本" is-link value="3.0.0" />
+</view>
+<view>
+  <van-button class="button" square type="default" size="large" color="">退出登录</van-button>
+</view>

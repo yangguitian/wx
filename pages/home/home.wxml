@@ -1,0 +1,31 @@
+<!--pages/home/home.wxml-->
+<!--search 事件在用户点击键盘上的搜索按钮触发。cancel 事件在用户点击搜索框右侧取消按钮时触发-->
+
+<van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  show-action
+  input-align="center"
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+/>
+<swiper indicator-dots="ture" autoplay="ture" interval="3000" circular="ture" indicator-color="#fff" indicator-active-color="#ff410f">
+<swiper-item>
+  <image src="../../images/星际2.jpg" style="width:100%;" ></image>
+</swiper-item>
+<swiper-item>
+  <image src="../../images/星际3.jpg" style="width:100%;"></image>
+</swiper-item><swiper-item>
+  <image src="../../images/星际4.jpg" style="width:100%;"></image>
+</swiper-item>
+</swiper>
+
+<!-- menu btn -->
+<view class="menu">
+  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/classification/classification" open-type="switchTab" wx:key="item">
+    <image class="menuicon" src="/images/图标/{{item.icon}}"></image>
+    <text class="menutext">{{item.name}}</text>
+  </navigator>
+</view>
+  
+  

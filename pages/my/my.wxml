@@ -1,0 +1,23 @@
+<!--pages/my/my.wxml-->
+<view class="bg">
+  <view class="btn-area">
+    <navigator url="/pages/setting/setting">
+      <van-icon class="icon01" name="setting-o" size="2em" />
+    </navigator>
+  </view>
+  <view class="box-user">
+    <view class="user-icon"></view>
+    <view class="user-name">登录</view>
+  </view>
+</view>
+
+<view class="box-tool">
+  <view class="box-title">我的工具栏</view>
+</view>
+<view class="menu">
+  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/classification/classification" open-type="switchTab"
+    wx:key="item">
+    <image class="menuicon" src="/images/图标/{{item.icon}}"></image>
+    <text class="menutext">{{item.name}}</text>
+  </navigator>
+</view>
