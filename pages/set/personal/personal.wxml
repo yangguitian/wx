@@ -1,0 +1,14 @@
+<!--pages/set/personal/personal.wxml 个人资料-->
+<view class="header">
+  <van-icon class="icon-left" size="1.5em" color="white" name="arrow-left" bindtap="Back" />
+  <view class="font">个人资料</view>
+</view>
+<view class="cell">
+  <van-cell title="头像" is-link value="保密" />
+  <van-cell title="昵称" is-link value="保密" />
+  <van-cell title="真实姓名" is-link value="保密" />
+  <van-cell title="个性签名" is-link value="懒得连签名都没有" />
+  <van-cell title="学校" is-link value="剩余2次修改机会" />
+  <van-cell title="性别" is-link value="保密" />
+  <van-cell title="入学年份" is-link value="请设置" />
+</view>

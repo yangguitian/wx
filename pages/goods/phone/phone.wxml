@@ -1,0 +1,8 @@
+<!--pages/goods/phone/phone.wxml-->
+<!--搜索-->
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" show-action input-align="center" bind:search="onSearch"
+  bind:cancel="onCancel" />
+<van-dropdown-menu>
+  <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+  <van-dropdown-item value="{{ value2 }}" options="{{ option2 }}" />
+</van-dropdown-menu>

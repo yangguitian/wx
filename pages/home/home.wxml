@@ -19,7 +19,7 @@
 
 <!-- menu btn 4*2 -->
 <view class="menu">
-  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/classification/classification" open-type="switchTab"
+  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/test01/test01" open-type="switchTab"
     wx:key="item">
     <image class="menuicon" src="/images/图标/{{item.icon}}"></image>
     <text class="menutext">{{item.name}}</text>
@@ -32,7 +32,7 @@
     <view class="welfare-font-box">福利专区</view>
   </view>
   <view class="welfare-showboxs">
-    <view class="welfare-showbox">
+    <view class="welfare-showbox" >
       <view class="welfare-showbox-font">
         <view class="top">优惠卷</view>
         <view class="middle">福利多多</view>

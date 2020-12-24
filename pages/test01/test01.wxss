@@ -1,0 +1,96 @@
+/* pages/test01/test01.wxss */
+/**app.wxss**/
+.big-box {
+   width: 100%;
+   height: 80rpx;
+   background-color: white;
+}
+.big-box-title {
+   font-size: 1.2em;
+   font-weight: bold;
+   width: 140rpx;
+   height: 80rpx;
+   line-height: 80rpx;
+   margin: 0 auto;
+}
+.container {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  padding: 0;
+}
+
+.flex-wrap{
+   display: flex;
+}
+.flex-item{
+   flex: 1;
+}
+.w3w {
+   display: block;
+   width: 160rpx;
+   height: 200rpx;
+   background-color: rgb(15, 96, 202);
+}
+.pic {
+   width: 160rpx;
+   height: 160rpx;
+}
+.flex-wrap.flex-direction-col{
+   flex-direction: column;
+}
+.flex-wrap.flex-direction-row{
+   flex-direction: row;
+}
+.aside{
+  width:7rem;
+  font-size: .85rem;
+  }
+  .type-nav{
+  position: relative;
+  padding:.7rem .3rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  z-index: 10;
+  background-color: #fff;
+  }
+  .type-nav.selected{
+  margin-right: -1px;
+  padding-left:-1px;
+  color: #f06c7a;
+  background-color: #f8f8f8;
+  }
+  .content{
+  background-color: #e01e1e;
+  }
+  .dish{
+     width: 180rpx;
+     display: inline-block;
+  /* margin-left: 1rem; */
+  /* padding: 1rem; */
+  /* border-bottom: 1px solid #ddd; */
+  }
+  .dish .title{
+  display: block;
+  font-size: 0.8rem;
+  width: 160rpx;
+  text-align: center;
+  }
+  .dish p{
+  color: orange;
+  font-size: .75rem;
+  }
+  .dish .add-btn{
+  width: 3rem;
+  text-align: right;
+  }
+  
+  .cart{
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  background: #ddd;
+  }

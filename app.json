@@ -1,12 +1,19 @@
 {
   "pages": [
+    "pages/goods/phone/phone",
+    "pages/test01/test01",
     "pages/home/home",
     "pages/my/my",
+    "pages/set/personal/personal",
     "pages/setting/setting",
     "pages/category/category",
     "pages/classification/classification",
     "pages/logs/logs",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/set/address/address",
+    "pages/set/introduction/introduction",
+    "pages/set/contact/contact",
+    "pages/goods/computer/computer"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,7 +31,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/category/category",
+        "pagePath": "pages/test01/test01",
         "iconPath": "images/分类.png",
         "selectedIconPath": "images/分类-HL.png",
         "text": "分类"
@@ -47,6 +54,9 @@
     "van-grid": "@vant/weapp/grid/index",
     "van-grid-item": "@vant/weapp/grid-item/index",
     "van-sidebar": "@vant/weapp/sidebar/index",
+    "van-notify": "@vant/weapp/notify/index",
+    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "@vant/weapp/dropdown-item/index",
     "van-sidebar-item": "@vant/weapp/sidebar-item/index"
   }
 }

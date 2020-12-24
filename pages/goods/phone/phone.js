@@ -1,20 +1,22 @@
-// pages/home/home.js
+// pages/goods/phone/phone.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    menu: [
-      {icon:"数码产品.png", name:"数码产品"},
-      {icon:"书籍教材.png", name:"书籍教材"},
-      {icon:"衣鞋帽伞.png", name:"衣鞋帽伞"},
-      {icon:"体育运动.png", name:"体育运动"},
-      {icon:"家用电器.png", name:"家用电器"},
-      {icon:"手工设计.png", name:"手工设计"},
-      {icon:"日常用品.png", name:"日常用品"},
-      {icon:"代步工具.png", name:"代步工具"}
-    ]
+    option1: [
+      { text: '全部商品', value: 0 },
+      { text: '新款商品', value: 1 },
+      { text: '活动商品', value: 2 },
+    ],
+    option2: [
+      { text: '默认排序', value: 'a' },
+      { text: '好评排序', value: 'b' },
+      { text: '销量排序', value: 'c' },
+    ],
+    value1: 0,
+    value2: 'a',
   },
 
   /**

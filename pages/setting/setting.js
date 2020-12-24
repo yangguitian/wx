@@ -13,11 +13,28 @@ Component({
   data: {
 
   },
+  // Back:function(){
+  //   var self = this;
+  //   var pages = getCurrentPages();
+  //   if(pages.length == 1){
+  //     if(self.data.cir)
+  //   }
+  // }
+ 
+  
+ 
 
   /**
    * 组件的方法列表
    */
   methods: {
-
+    Back(){
+      wx.navigateBack()
+    },
+    goTopersonal:function(){
+      wx.navigateTo({
+        url: '/pages/set/personal/personal',
+      })
+    },
   }
 })
