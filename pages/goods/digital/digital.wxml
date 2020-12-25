@@ -1,0 +1,23 @@
+<!--pages/goods/phone/phone.wxml-->
+<!--搜索-->
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" show-action input-align="center" bind:search="onSearch"
+  bind:cancel="onCancel" />
+<van-dropdown-menu>
+  <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+  <van-dropdown-item value="{{ value2 }}" options="{{ option2 }}" />
+</van-dropdown-menu>
+
+<van-grid column-num="2">
+  
+  <van-grid-item use-slot>
+    <image src="/images/商品/手机1.jpg" />
+    <text class="text">多普达S1 搭载了全新的windows mobile 6.0操作系统</text>
+    <text class="price">￥60.00</text>
+  </van-grid-item>
+
+  <van-grid-item use-slot>
+    <image src="/images/商品/平板1.png" />
+    <text class="text">多普达S1 搭载了全新的windows mobile 6.0操作系统</text>
+    <text class="price">￥60.00</text>
+  </van-grid-item>
+</van-grid>

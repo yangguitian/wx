@@ -13,7 +13,7 @@
   <view class="box-title">我的工具栏</view>
 </view>
 <view class="menu">
-  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/classification/classification" open-type="switchTab"
+  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/set/{{item.url}}"
     wx:key="item">
     <image class="menuicon" src="/images/图标/{{item.icon}}"></image>
     <text class="menutext">{{item.name}}</text>

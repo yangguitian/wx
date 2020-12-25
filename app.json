@@ -1,19 +1,24 @@
 {
   "pages": [
-    "pages/goods/phone/phone",
-    "pages/test01/test01",
-    "pages/home/home",
+    "pages/set/collect/collect",
     "pages/my/my",
+    "pages/home/home",
+    "pages/goods/digital/digital",
+    "pages/category/category",
     "pages/set/personal/personal",
     "pages/setting/setting",
-    "pages/category/category",
-    "pages/classification/classification",
     "pages/logs/logs",
     "pages/index/index",
     "pages/set/address/address",
     "pages/set/introduction/introduction",
     "pages/set/contact/contact",
-    "pages/goods/computer/computer"
+    "pages/goods/clothes/clothes",
+    "pages/goods/sports/sports",
+    "pages/goods/device/device",
+    "pages/goods/books/books",
+    "pages/goods/transportation/transportation",
+    "pages/goods/articles/articles",
+    "pages/goods/devise/devise"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,7 +36,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/test01/test01",
+        "pagePath": "pages/category/category",
         "iconPath": "images/分类.png",
         "selectedIconPath": "images/分类-HL.png",
         "text": "分类"
@@ -52,6 +57,8 @@
     "van-button": "@vant/weapp/button/index",
     "van-search": "@vant/weapp/search/index",
     "van-grid": "@vant/weapp/grid/index",
+    "van-card": "@vant/weapp/card/index",
+    "van-image": "@vant/weapp/image/index",
     "van-grid-item": "@vant/weapp/grid-item/index",
     "van-sidebar": "@vant/weapp/sidebar/index",
     "van-notify": "@vant/weapp/notify/index",

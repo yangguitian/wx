@@ -1,5 +1,20 @@
 /* pages/home/home.wxss */
-
+.swiper {
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 3px 10px 10px #b3a8a8;
+  width: 95%;
+  height: 130px;
+}
+.swiper-item {
+  width: 100%;
+  height: 100%;
+}
+.img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
 .menu {
   display: flex;
   flex-wrap: wrap;

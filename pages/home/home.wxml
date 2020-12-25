@@ -4,22 +4,22 @@
 <van-search value="{{ value }}" placeholder="请输入搜索关键词" show-action input-align="center" bind:search="onSearch"
   bind:cancel="onCancel" />
 <!--轮播-->
-<swiper indicator-dots="ture" autoplay="ture" interval="3000" circular="ture" indicator-color="#fff"
+<swiper class="swiper" indicator-dots="ture" autoplay="ture" interval="3000" circular="ture" indicator-color="#fff"
   indicator-active-color="#ff410f">
-  <swiper-item>
-    <image src="../../images/星际2.jpg" style="width:100%;"></image>
+  <swiper-item class="swiper-item">
+    <image class="img" src="/images/广告位1.jpg"></image>
   </swiper-item>
   <swiper-item>
-    <image src="../../images/星际3.jpg" style="width:100%;"></image>
+    <image class="img" src="/images/广告位2.jpg"></image>
   </swiper-item>
   <swiper-item>
-    <image src="../../images/星际4.jpg" style="width:100%;"></image>
+    <image class="img" src="/images/广告位3.jpg"></image>
   </swiper-item>
 </swiper>
 
 <!-- menu btn 4*2 -->
 <view class="menu">
-  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/test01/test01" open-type="switchTab"
+  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/goods/{{item.goods}}"
     wx:key="item">
     <image class="menuicon" src="/images/图标/{{item.icon}}"></image>
     <text class="menutext">{{item.name}}</text>

@@ -6,9 +6,9 @@ Page({
    */
   data: {
     menu: [
-      {icon:"我的收藏.png", name:"我的收藏"},
+      {icon:"我的收藏.png", name:"我的收藏", url:"collect/collect"},
       {icon:"优惠卷.png", name:"优惠卷"},
-      {icon:"个人资料.png", name:"个人资料"},
+      {icon:"个人资料.png", name:"个人资料", url:"personal/personal"},
       {icon:"签到记录.png", name:"签到记录"},
       {icon:"收货地址.png", name:"收货地址"},
       {icon:"消息中心.png", name:"消息中心"},
