@@ -6,11 +6,9 @@ Page({
    */
   data: {
    menu:[
-     {mini:"描述", title:"题目",price:"2.00", goods:"平板1.png"}
+     {mini:"2017 32g 苹果平板电脑", title:"ipad ",price:"1690", goods:"平板1.png"},
+     {mini:"2017 32g 苹果平板电脑", title:"ipad ",price:"1690", goods:"平板1.png"}
    ]
-  },
-  Back(){
-    wx.navigateBack()
   },
   /**
    * 生命周期函数--监听页面加载

@@ -12,11 +12,15 @@ Page({
     ],
     option2: [
       { text: '默认排序', value: 'a' },
-      { text: '好评排序', value: 'b' },
-      { text: '销量排序', value: 'c' },
+      { text: '销量排序', value: 'b' },
+      { text: '价格排序', value: 'c' },
     ],
     value1: 0,
     value2: 'a',
+    menu:[
+      { pic:"手机1.jpg", text:"多普达S1 搭载了全新的windows mobile 6.0操作系统", price:"60.00"},
+      { pic:"平板1.png", text:"ipad 2017 32g 苹果平板电脑 ios系统", price:"1690", url:"details-1/details-1"},
+    ]
   },
 
   /**

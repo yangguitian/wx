@@ -1,0 +1,16 @@
+<!--pages/set/comments/comments.wxml 评论-->
+<view class="top">
+  <van-button  wx:for="{{menu1}}" wx:key="item" round type="info" size="mini" plain color="#666">{{item.name}}</van-button>
+</view>
+<view wx:for="{{menu}}" wx:key="item">
+  <view class="middle-pic">
+    <image src="/images/图标/{{item.img}}.png"></image>
+    <view class="middle-name">{{item.tel}}</view>
+  </view>
+  <view class="talk-box">
+    <view class="talk">{{item.comments}}</view>
+    <van-rate readonly value="{{ item.value }}" size="{{ 20 }}" bind:change="onChange" />
+    <view class="time">{{item.time}}</view>
+  </view>
+</view>
+

@@ -4,6 +4,7 @@
   width: 100%;
   height: 200px;
   background-color: #f06c7a;
+  border-radius: 0 0 9% 9%;
 }
 .icon01 {
   position: absolute;

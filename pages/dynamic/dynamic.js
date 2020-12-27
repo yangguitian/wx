@@ -1,4 +1,4 @@
-// pages/set/personal/personal.js
+// pages/dynamic/dynamic.js
 Page({
 
   /**
@@ -7,6 +7,7 @@ Page({
   data: {
 
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

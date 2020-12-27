@@ -1,0 +1,61 @@
+/* pages/set/comments/comments.wxss */
+page {
+  padding: 0 10px;
+}
+.top {
+  width: 100%;
+  height: 50px;
+}
+.van-button {
+  margin: 14px 5px;
+}
+.middle-pic {
+  width: 100%;
+  height: 50px;
+  margin: 5px 0;
+}
+.middle-pic image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.middle-name {
+  height: 60px;
+  margin: 0 5px;
+  font-size: 0.9em;
+  vertical-align: middle;
+  display: inline-block;
+}
+.middle-icon-box {
+  margin-top: 10px;
+  width: 100%;
+  height: 140px;
+}
+.middle-icon {
+  color: #999;
+  margin: 5px 0;
+  width: 100%;
+  height: 30px;
+}
+.van-icon {
+  margin: 0 4px;
+}
+.middle-icon-name {
+  vertical-align: top;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+.botton {
+  width: 95%;
+  height: 150px;
+  margin: 0 auto;
+}
+.van-cell__value {
+  color: var(--cell-value-color,#06c05f) !important;
+}
+.time {
+  color: #999;
+  margin-left: 140px;
+  display: inline-block;
+}

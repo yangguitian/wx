@@ -9,15 +9,9 @@
 
 <van-grid column-num="2">
   
-  <van-grid-item use-slot>
-    <image src="/images/商品/手机1.jpg" />
-    <text class="text">多普达S1 搭载了全新的windows mobile 6.0操作系统</text>
-    <text class="price">￥60.00</text>
-  </van-grid-item>
-
-  <van-grid-item use-slot>
-    <image src="/images/商品/平板1.png" />
-    <text class="text">多普达S1 搭载了全新的windows mobile 6.0操作系统</text>
-    <text class="price">￥60.00</text>
+  <van-grid-item use-slot wx:for="{{menu}}" wx:key="item" url="/pages/goods/details/{{item.url}}">
+    <image src="/images/商品/{{item.pic}}" />
+    <text class="text">{{item.text}}</text>
+    <text class="price">￥{{item.price}}</text>
   </van-grid-item>
 </van-grid>

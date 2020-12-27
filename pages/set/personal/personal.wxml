@@ -1,8 +1,5 @@
 <!--pages/set/personal/personal.wxml 个人资料-->
-<view class="header">
-  <van-icon class="icon-left" size="1.5em" color="white" name="arrow-left" bindtap="Back" />
-  <view class="font">个人资料</view>
-</view>
+
 <view class="cell">
   <van-cell title="头像" is-link value="保密" />
   <van-cell title="昵称" is-link value="保密" />

@@ -1,11 +1,9 @@
 <!--pages/set/collect/collect.wxml-->
-<view class="header">
-  <van-icon class="icon-left" size="1.5em" color="white" name="arrow-left" bindtap="Back" />
-  <view class="font">我的收藏</view>
-</view>
 
-<van-card num="2" price="{{item.price}}" wx:for="{{menu}}" desc="{{item.mini}}" title="{{item.title}}" thumb="/images/商品/{{item.goods}}" wx:key="item">
-  <view slot="footer">
-    <van-button size="mini">删除</van-button>
+
+<van-card price="{{item.price}}" wx:for="{{menu}}" desc="{{item.mini}}" title="{{item.title}}"
+  thumb="/images/商品/{{item.goods}}" wx:key="item">
+  <view slot="footer" class="footer">
+    <van-button plain type="danger" size="small">删除</van-button>
   </view>
 </van-card>
