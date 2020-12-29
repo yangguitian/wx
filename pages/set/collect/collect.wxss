@@ -29,9 +29,11 @@ page{
 .van-card__title {
   font-size: 1.7em;
   width: 170px;
+  line-height: 25px !important;
 }
 .van-card__desc {
   margin-top: 15px;
+  width: 170px;
 }
 .van-card__bottom {
   text-align: right;

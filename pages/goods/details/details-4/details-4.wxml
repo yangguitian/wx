@@ -1,0 +1,88 @@
+<!--pages/goods/details/details-1/details-1.wxml -->
+<swiper class="swiper" indicator-dots="ture" autoplay="ture" interval="5000" circular="ture" indicator-color="#fff"
+  indicator-active-color="black">
+  <swiper-item class="swiper-item">
+    <image class="img" src="/images/商品/内存条1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="img" src="/images/商品/内存条3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="img" src="/images/商品/内存条2.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="big-box">
+  <view class="top-box">
+    <view class="title">金士顿 海盗船 芝奇 DDR3 三代内存条 4G</view>
+    <view class="instructions">小牛电动N1动力版，外观完好，实表11850多公里，德国博世电机，上黑糜峰没有问题，进口电芯锂电池，电池轻巧；前后油压碟刹前后真空轮胎</view>
+    <view class="price">￥179</view>
+    <view class="mini1 mini">邮费:商议</view>
+    <view class="mini2 mini">浏览量:782</view>
+  </view>
+
+  <view class="middle">
+    <view class="middle-box">
+      <view class="middle-pic">
+        <image src="/images/图标/头像5.png"></image>
+        <view class="middle-name">1557737997</view>
+      </view>
+      <view class="middle-icon-box">
+        <view class="middle-icon">
+          <van-icon name="location" color="#999" size="27px" />
+          <view class="middle-icon-name">广西民族大学相思湖学院</view>
+        </view>
+        <view class="middle-icon">
+          <van-icon name="clock" color="#999" size="27px" />
+          <view class="middle-icon-name">更新于2019-10-15</view>
+        </view>
+        <view class="middle-icon">
+          <van-icon name="new-arrival" color="#999" size="27px" />
+          <view class="middle-icon-name">
+            <van-icon name="checked" />原装正品
+            <van-icon name="checked" />非诚勿扰</view>
+        </view>
+        <view class="middle-icon">
+          <van-icon name="phone" color="#999" size="27px" />
+          <view class="middle-icon-name">1557737997 <a href="#" style="color:blue;font-size:0.9em">拨号</a></view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="botton">
+    <van-cell title="评价(5)" is-link value="全部评价" url="/pages/set/comments/comments" />
+    <view>
+      <view class="middle-pic">
+        <image src="/images/图标/头像6.png"></image>
+        <view class="middle-name">18799942151</view>
+      </view>
+      <view class="talk-box">
+        <view class="talk">几成新的，我要了</view>
+        <van-rate readonly value="{{ value }}" size="{{ 20 }}" bind:change="onChange" />
+        <view class="time">2020-12-23</view>
+      </view>
+    </view>
+  </view>
+  <view class="space"></view>
+</view>
+<view class="fixed">
+  <view class="fixed-box">
+    <navigator class="icon-4" bindtap="tohome">
+      <van-icon name="wap-home" size="35px" />
+      <view class="icon-name">首页</view>
+    </navigator>
+    <navigator class="icon-4" url="/pages/set/comments/comments">
+      <van-icon name="more" size="35px" />
+      <view class="icon-name">评论</view>
+    </navigator>
+    <view class="icon-4" >
+      <van-icon name="star" size="35px" catchtap='handleCollection' wx:if='{{!isCollected}}' />
+      <van-icon name="star" size="35px" color="#f06c7a" catchtap='handleCollection' wx:if='{{isCollected}}' />
+      <view class="icon-name">收藏</view>
+    </view>
+    <view class="icon-4">
+      <van-icon name="warn-o" size="35px" />
+      <view class="icon-name">举报</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,43 @@
+<!--pages/set/work/work.wxml-->
+<van-tabs animated>
+  <van-tab title="时间↓">
+    <view class="box" wx:for="{{menu}}" wx:key="item">
+      <view class="box-center">
+        <view class="top-box">
+          <view class="fl">{{item.title1}}</view>
+          <view class="fr red">{{item.title2}}</view>
+        </view>
+        <view class="top2-box">
+          <view class="fl text">{{item.title3}}</view>
+          <view class="fr red text">{{item.moshi}}</view>
+        </view>
+        <view class="top3-box">
+          <view class="button">
+            <view class="font">{{item.good1}}</view>
+          </view>
+          <view class="button">
+            <view class="font">{{item.good2}}</view>
+          </view>
+        </view>
+        <view class="button-box">
+          <view class="pic">
+            <image class="pic1" src="/images/图标/{{item.pic}}"></image>
+          </view>
+          <view class="text">
+            <view class="top">{{item.name}}</view>
+            <view class="top">
+              <view class="qqq">{{item.num}}</view>
+              <view class="rrr">{{item.time}}</view>
+            </view>
+          </view>
+
+        </view>
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="近一周"></van-tab>
+  <van-tab title="浏览量"></van-tab>
+  <van-tab title="筛选"></van-tab>
+</van-tabs>
+
+<van-divider fontSize="13" contentPosition="center">点击或上拉加载更多</van-divider>

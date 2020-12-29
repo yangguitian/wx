@@ -1,0 +1,40 @@
+/* pages/dynamic/new-1/new-1.wxss */
+.padding {
+  width: 90%;
+  height: 200px;
+  margin: 10px auto;
+}
+.top-title {
+  width: 100%;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+.top-text {
+  color: #666;
+  font-size: 0.7em;
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+.top-text text {
+  color: #576b95;
+}
+.pic1 {
+  width: 100%;
+  height: 535px;
+}
+.new {
+  margin: 20px 0;
+  text-indent: 2.5em;
+  font-size: 0.7em;
+  letter-spacing: 3px;
+  line-height: 20px;
+}
+.pic2 {
+  width: 100%;
+  height: 235px;
+}
+.pic3 {
+  margin-top: 20px ;
+  width: 100%;
+  height: 430px;
+}

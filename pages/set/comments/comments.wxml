@@ -14,3 +14,21 @@
   </view>
 </view>
 
+
+
+<view class="fixed">
+  <view class="fixed-box">
+    <van-cell-group>
+  <van-field
+    value="{{ sms }}"
+    center
+    clearable
+    label="留言"
+    placeholder="看对眼就留言，问问更多细节 ~"
+    border="{{ false }}"
+    use-button-slot>
+    <van-button slot="button" size="small" type="primary">发布</van-button>
+  </van-field>
+</van-cell-group>
+  </view>
+</view>

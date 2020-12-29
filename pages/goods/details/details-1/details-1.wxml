@@ -51,7 +51,7 @@
   </view>
 
   <view class="botton">
-    <van-cell title="评价(2)" is-link value="全部评价" url="/pages/set/comments/comments" />
+    <van-cell title="评价(3)" is-link value="全部评价" url="/pages/set/comments/comments" />
     <view>
       <view class="middle-pic">
         <image src="/images/图标/头像2.png"></image>
@@ -68,16 +68,17 @@
 </view>
 <view class="fixed">
   <view class="fixed-box">
-    <view class="icon-4">
+    <navigator class="icon-4" bindtap="tohome">
       <van-icon name="wap-home" size="35px" />
       <view class="icon-name">首页</view>
-    </view>
-    <view class="icon-4" >
-      <van-icon name="more" size="35px"/>
+    </navigator>
+    <navigator class="icon-4" url="/pages/set/comments/comments">
+      <van-icon name="more" size="35px" />
       <view class="icon-name">评论</view>
-    </view>
-    <view class="icon-4">
-      <van-icon name="star" size="35px" />
+    </navigator>
+    <view class="icon-4" >
+      <van-icon name="star" size="35px" catchtap='handleCollection' wx:if='{{!isCollected}}' />
+      <van-icon name="star" size="35px" color="#f06c7a" catchtap='handleCollection' wx:if='{{isCollected}}' />
       <view class="icon-name">收藏</view>
     </view>
     <view class="icon-4">

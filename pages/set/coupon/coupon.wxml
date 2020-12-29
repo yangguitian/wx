@@ -1,0 +1,23 @@
+<!--pages/set/coupon/coupon.wxml-->
+<van-tabs swipeable>
+  <van-tab title="可用(0)">
+    <view class="box1" wx:for="{{menu}}" wx:key="item">
+      <view class="left">
+        <view class="money">￥{{item.price}}</view>
+      </view>
+      <view class="right">
+        <view class="title">{{item.title}}</view>
+      </view>
+    </view> 
+  </van-tab>
+  <van-tab title="已使用(0)">
+    <view  class="pic-box">
+      <image class="pic" src="/images/优惠券.png"></image>
+    </view>
+  </van-tab>
+  <van-tab title="已过期(0)">
+    <view  class="pic-box">
+      <image class="pic" src="/images/优惠券.png"></image>
+    </view>
+  </van-tab>
+</van-tabs>

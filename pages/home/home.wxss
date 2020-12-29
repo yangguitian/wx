@@ -10,7 +10,7 @@
   width: 100%;
   height: 100%;
 }
-.img {
+.swiper-img {
   border-radius: 10px;
   width: 100%;
   height: 100%;
@@ -40,6 +40,7 @@
   color: #444444;
   font-size: 20rpx;
   font-weight: 400;
+  text-align: center;
 }
 .welfare {
   margin: 0 auto;
@@ -101,4 +102,49 @@
   display: inline-block;
   width: 150rpx;
   height: 150rpx;
+}
+.recommend-box {
+  width: 100%;
+  height: 40px;
+}
+.recommend-title {
+  color: #ff5a01;
+  text-align: center;
+  line-height: 40px;
+}
+.recommend-title image {
+  width: 30px;
+  height: 30px;
+  z-index: 999;
+}
+.asd{
+  text-align: left;
+}
+.van-grid-item__content {
+  background-color: rgb(223, 27, 27);
+  /* border: 1px solid #666; */
+  margin: 10rpx;
+  box-shadow: 3px 0px 10px #b3a8a8;
+  border-radius: 10px;
+}
+.img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.van-grid-item__content image {
+  width: 100%;
+  border-radius: 10px;
+}
+text {
+  font-size:25rpx;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+}
+.text {
+  margin: 10rpx;
+}
+.price {
+  color: red;
 }

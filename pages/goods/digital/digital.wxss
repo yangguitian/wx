@@ -11,7 +11,7 @@
 }
 .van-grid-item__content image {
   width: 100%;
-  height: 150px;
+  height: 181px;
   border-radius: 10px;
 }
 text {

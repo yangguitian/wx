@@ -7,7 +7,7 @@ Page({
   data: {
    menu:[
      {mini:"2017 32g 苹果平板电脑", title:"ipad ",price:"1690", goods:"平板1.png"},
-     {mini:"2017 32g 苹果平板电脑", title:"ipad ",price:"1690", goods:"平板1.png"}
+     {mini:"小牛电动N1动力版，外观完好，实表11850多公里", title:"小牛N1锂电电动车 八成新",price:"4700", goods:"电动车1.png"}
    ]
   },
   /**

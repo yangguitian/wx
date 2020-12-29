@@ -18,8 +18,12 @@ Page({
     value1: 0,
     value2: 'a',
     menu:[
-      { pic:"手机1.jpg", text:"多普达S1 搭载了全新的windows mobile 6.0操作系统", price:"60.00"},
-      { pic:"平板1.png", text:"ipad 2017 32g 苹果平板电脑 ios系统", price:"1690", url:"details-1/details-1"},
+      { pic:"/images/商品/手机1.jpg", text:"多普达S1 搭载了全新的windows mobile 6.0操作系统", price:"60.00", url:"details-1/details-1"},
+      { pic:"https://img14.360buyimg.com/n0/jfs/t1/118181/21/9646/127309/5edda774E49ad167a/169a93c1a2b342ae.jpg", text:"先科无线蓝牙音箱 迷你随身便携式音响手机电脑超重低音炮户外插卡小钢炮", price:"58.00", url:"details-1/details-1"},
+      { pic:"https://img14.360buyimg.com/n0/jfs/t1/147903/32/16516/111280/5fc775e2Ebc747073/b5a8da603e1be762.jpg", text:"麦博 多媒体可壁挂式木质书架 蓝牙音箱 黑色", price:"299", url:"details-1/details-1"},
+      { pic:"/images/商品/平板1.png", text:"ipad 2017 32g 苹果平板电脑 ios系统", price:"1690", url:"details-1/details-1"},
+      { pic:"https://img14.360buyimg.com/n0/jfs/t1/142719/12/444/104550/5ee1988cEd952bf51/74860b136a001168.jpg", text:"小米手环5 NFC版 石墨黑 动态彩屏 智能运动监测", price:"219", url:"details-1/details-1"},
+      { pic:"/images/商品/平板1.png", text:"小米路由器4A千兆版 双核CPU 双千兆 1200M双频无线速率 5G 家用智能", price:"119", url:"details-1/details-1"},
     ]
   },
 

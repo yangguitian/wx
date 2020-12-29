@@ -8,9 +8,8 @@
 </van-dropdown-menu>
 
 <van-grid column-num="2">
-  
   <van-grid-item use-slot wx:for="{{menu}}" wx:key="item" url="/pages/goods/details/{{item.url}}">
-    <image src="/images/商品/{{item.pic}}" />
+    <image src="{{item.pic}}" />
     <text class="text">{{item.text}}</text>
     <text class="price">￥{{item.price}}</text>
   </van-grid-item>

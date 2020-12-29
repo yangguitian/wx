@@ -12,11 +12,12 @@ Page({
       {name:"差评"}
     ],
     menu:[
-      {img:"头像2", tel:"18997875727", comments:"配置可以详细点吗，感觉还不错", value:"3", time:"2020-12-23"},
+      {img:"头像2", tel:"18997875727", comments:"感觉还不错", value:"3", time:"2020-12-23"},
       {img:"头像3", tel:"call me", comments:"挺好的呀", value:"5", time:"2020-12-25"},
-      {img:"头像5", tel:"ctrl练习生", comments:"阿巴阿巴阿巴", value:"1", time:"2020-12-27"}
+      {img:"头像5", tel:"我是猫头鹰", comments:"阿巴阿巴阿巴", value:"1", time:"2020-12-27"}
     ]
   },
+  
   /**
    * 生命周期函数--监听页面加载
    */

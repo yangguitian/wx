@@ -2,10 +2,10 @@
 
 <view class="cell">
   <van-cell title="头像" is-link value="保密" />
-  <van-cell title="昵称" is-link value="保密" />
+  <van-cell title="昵称" is-link value="学生仔" />
   <van-cell title="真实姓名" is-link value="保密" />
   <van-cell title="个性签名" is-link value="懒得连签名都没有" />
   <van-cell title="学校" is-link value="剩余2次修改机会" />
-  <van-cell title="性别" is-link value="保密" />
+  <van-cell title="性别" is-link value="男" />
   <van-cell title="入学年份" is-link value="请设置" />
 </view>

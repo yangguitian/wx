@@ -1,5 +1,5 @@
 <!--pages/dynamic/dynamic.wxml-->
-<view class="big-box">
+<view class="top-big-box">
   <view class="big-box-title">资讯</view>
 </view>
 <swiper class="swiper" indicator-dots="ture" autoplay="ture" interval="5000" circular="ture" indicator-color="#fff"
@@ -14,3 +14,16 @@
     <image class="img" src="/images/资讯8.jpg"></image>
   </swiper-item>
 </swiper>
+
+<view class="big-box">
+  <navigator class="new-box" wx:for="{{new}}" wx:key="item" url="/pages/dynamic/{{item.url}}">
+    <view class="time">{{item.time}}</view>
+    <view class="pic">
+      <image src="/images/资讯/{{item.pic}}.jpg"></image>
+    </view>  
+    <view class="text">
+      <view>{{item.text}}</view>
+    </view>  
+  </navigator>
+
+</view>

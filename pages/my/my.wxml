@@ -1,20 +1,24 @@
 <!--pages/my/my.wxml-->
 <view class="bg">
   <view class="btn-area">
-      <van-icon class="icon01" name="setting-o" size="2em" bindtap="goTosetting" />
+    <van-icon class="icon01" name="setting-o" size="2em" bindtap="goTosetting" />
   </view>
-  <view class="box-user">
-    <view class="user-icon"></view>
-    <view class="user-name">登录</view>
+  <view class="userinfo">
+    <button class="btn" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录
+    </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="user-icon" src="{{userInfo.avatarUrl}}" mode="cover" ></image>
+      <text class="user-name">{{userInfo.nickName}}</text>
+    </block>
   </view>
+
 </view>
 
 <view class="box-tool">
   <view class="box-title">我的工具栏</view>
 </view>
 <view class="menu">
-  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/set/{{item.url}}"
-    wx:key="item">
+  <navigator class="menubtn" wx:for="{{menu}}" url="/pages/set/{{item.url}}" wx:key="item">
     <image class="menuicon" src="/images/图标/{{item.icon}}"></image>
     <text class="menutext">{{item.name}}</text>
   </navigator>
