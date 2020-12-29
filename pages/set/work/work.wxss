@@ -51,13 +51,13 @@ page {
   border-radius: 8px;
   width: 50px;
   height: 20px;
-  background-color: rgb(224, 191, 191);
+  background-color: #f06c7a;
 }
 .font {
   text-align: center;
   line-height: 20px;
   font-size: .4em;
-  color: rgb(241, 150, 165);
+  color: white;
 }
 .button-box {
   width: 100%;

@@ -1,0 +1,23 @@
+<!--pages/set/publish/publish.wxml-->
+
+<view class="box">
+  <van-cell-group>
+    <van-field label="填写标题" model:value="{{ value1 }}" placeholder="很重要，显示在列表页" border="{{ false }}" />
+    <van-field label="填写简介" model:value="{{ value2 }}" placeholder="很重要，显示在列表详情页" border="{{ false }}" />
+    <van-field label="标价" model:value="{{ value3 }}" placeholder="数字，想卖的价格" border="{{ false }}" />
+  </van-cell-group>
+
+  <van-uploader file-list="{{ fileList }}" max-count="2" bind:after-read="afterRead" />
+  <van-cell-group>
+    <van-field label="手机" model:value="{{ value4 }}" placeholder="手机，微信，QQ号，三项至少填一项"
+      border="{{ false }}" />
+    <van-field label="微信" model:value="{{ value5 }}" placeholder="机，微信，QQ号，三项至少填一项"
+      border="{{ false }}" />
+    <van-field label="QQ" model:value="{{ value6 }}" placeholder="机，微信，QQ号，三项至少填一项"
+      border="{{ false }}" />
+  </van-cell-group>
+
+  <van-button size="large" type="info" round="true" color="#f06c7a">
+    按钮
+  </van-button>
+</view>

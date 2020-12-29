@@ -17,12 +17,15 @@ Page({
     value1: 0,
     value2: 'a',
     menu:[
+      { pic:"https://gd1.alicdn.com/imgextra/i1/447473999/O1CN01dxmHtq1fPaSW3plRR_!!447473999.jpg", text:"六角哑铃男士健身练臂肌家用包胶", price:"29.00", url:"details-1/details-1"},
+      { pic:"https://img.alicdn.com/imgextra/i1/4120677340/O1CN01fxxdJk245lhqEXpH6_!!2-item_pic.png_430x430q90.jpg", text:"拳击散打立式水桶沙袋不倒翁击沙包跆拳道武术搏击训练", price:"485", url:"details-1/details-1"},
+      { pic:"https://img.alicdn.com/imgextra/i2/58987892/O1CN014KbTPe28AaJx0u9NF_!!0-saturn_solar.jpg_468x468q75.jpg_.webp", text:"拳击手套男女专业成人拳击训练器材散打泰拳搏击拳套", price:"288", url:"details-1/details-1"},
+      { pic:"https://img.alicdn.com/imgextra/i4/3619780669/O1CN01rho7WG1GoRRZD8zPs_!!0-item_pic.jpg_430x430q90.jpg", text:"弹力带门扣 拉力绳套装配件家用门上健身器材安全运动", price:"19.00", url:"details-1/details-1"},
       { pic:"/images/商品/篮球1.png", text:"篮球 翻毛皮篮球 九成新 手感一流", price:"40.00", url:"details-2/details-2"},
-      { pic:"https://img14.360buyimg.com/n0/jfs/t1/118181/21/9646/127309/5edda774E49ad167a/169a93c1a2b342ae.jpg", text:"先科无线蓝牙音箱 重低音炮户外插卡小钢炮", price:"58.00", url:"details-1/details-1"},
-      { pic:"https://img14.360buyimg.com/n0/jfs/t1/147903/32/16516/111280/5fc775e2Ebc747073/b5a8da603e1be762.jpg", text:"麦博 多媒体可壁挂式木质书架 蓝牙音箱 黑色", price:"299", url:"details-1/details-1"},
-      { pic:"/images/商品/平板1.png", text:"ipad 2017 32g 苹果平板电脑 ios系统", price:"1690", url:"details-1/details-1"},
-      { pic:"https://img14.360buyimg.com/n0/jfs/t1/142719/12/444/104550/5ee1988cEd952bf51/74860b136a001168.jpg", text:"小米手环5 NFC版 石墨黑 动态彩屏 智能运动监测", price:"219", url:"details-1/details-1"},
-      { pic:"/images/商品/平板1.png", text:"小米路由器4A千兆版 双核CPU 双千兆 1200M双频无线速率 5G 家用智能", price:"119", url:"details-1/details-1"},
+      { pic:"https://img.alicdn.com/imgextra/i1/3560022298/O1CN01yvzmHe1SqWn1MTMIf_!!3560022298.jpg_430x430q90.jpg", text:"罗马椅山羊挺身综合腰腹训练器多功能专业健身器材", price:"900", url:"details-1/details-1"},
+      { pic:"https://img.alicdn.com/imgextra/i1/29175466/O1CN01tD72qR1qFTTIX3jGI_!!0-saturn_solar.jpg_468x468q75.jpg_.webp", text:"门上单杠家庭引体向上器家用双杆室内墙体免打孔体育用品健身器材", price:"140", url:"details-2/details-2"},
+      { pic:"https://img.alicdn.com/imgextra/i1/26555231/O1CN01ElpKPR1oVqQvtwwLd_!!0-saturn_solar.jpg_468x468q75.jpg_.webp", text:"臂力器30kg50公斤室内练握力棒棍胸肌训练健身器材小家用男士套装", price:"125", url:"details-2/details-2"},
+
     ]
   },
 

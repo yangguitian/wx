@@ -19,7 +19,7 @@ Page({
       { id: 8, name: '虚拟产品' },
       { id: 9, name: '手工设计' },
       { id: 10, name: '乐器' },
-      { id: 11, name: '其他' },
+      { id: 11, name: '其他' }
     ],
     dishesList: [
       [ 
@@ -43,7 +43,7 @@ Page({
         {goods:"digital/digital", pic:"教育考试", name: "教育考试", num: 1, id: 3},
         {goods:"digital/digital", pic:"动漫", name: "动漫", num: 1, id: 3},
         {goods:"digital/digital", pic:"其他", name: "其他", num: 1, id: 4},
-        {},{},{},{},
+        {},{},{},{}
 
       ],
       [
@@ -73,9 +73,9 @@ Page({
         {goods:"digital/digital", pic:"球拍", name: "球拍", num: 1, id: 5 },
         {goods:"digital/digital", pic:"运动鞋", name: "运动鞋", num: 1, id: 5 },
         {goods:"digital/digital", pic:"运动装备", name: "运动装备", num: 1, id: 5 },
-        {goods:"digital/digital", pic:"健身器械", name: "健身器械", num: 1, id: 5 },
+        {goods:"digital/digital", pic:"健身器材", name: "健身器械", num: 1, id: 5 },
         {goods:"digital/digital", pic:"其他", name: "其他", num: 1, id: 6 },
-        {},{},{},{},
+        {},{},{},{}
       ],
       [
         {goods:"digital/digital", pic:"电磁炉", name: "电磁炉", num: 1, id: 5 },
@@ -84,24 +84,24 @@ Page({
         {goods:"digital/digital", pic:"风扇", name: "风扇", num: 1, id: 5 },
         {goods:"digital/digital", pic:"电饭煲", name: "电饭煲", num: 1, id: 5 },
         {goods:"digital/digital", pic:"豆浆机", name: "豆浆机", num: 1, id: 5 },
-        {goods:"digital/digital", pic:"吹风筒", name: "吹风筒", num: 1, id: 5 },
+        {goods:"digital/digital", pic:"吹风机", name: "吹风筒", num: 1, id: 5 },
         {goods:"digital/digital", pic:"音响", name: "音响", num: 1, id: 5 },
         {goods:"digital/digital", pic:"其他", name: "其他", num: 1, id: 6 },
-        {},
+        {}
       ],
       [
         {goods:"digital/digital", pic:"化妆护肤", name: "化妆护肤", num: 1, id: 5 },
         {goods:"digital/digital", pic:"小工具", name: "小工具", num: 1, id: 5 },
         {goods:"digital/digital", pic:"学习用品", name: "学习用品", num: 1, id: 5 },
         {goods:"digital/digital", pic:"其他", name: "其他", num: 1, id: 6 },
-        {},{},{},{},{}, {},
+        {},{},{},{},{}, {}
       ],
       [
         {goods:"digital/digital", pic:"游戏周边", name: "游戏周边", num: 1, id: 5 },
         {goods:"digital/digital", pic:"充值卡", name: "充值卡", num: 1, id: 5 },
         {goods:"digital/digital", pic:"游戏账号", name: "游戏账号", num: 1, id: 5 },
         {goods:"digital/digital", pic:"其他", name: "其他", num: 1, id: 6 },
-        {},{},{},{},{},{},
+        {},{},{},{},{},{}
       ],
       [
         {goods:"digital/digital", pic:"书法", name: "书法", num: 1, id: 5 },
@@ -109,7 +109,7 @@ Page({
         {goods:"digital/digital", pic:"工艺品", name: "工艺品", num: 1, id: 5 },
         {goods:"digital/digital", pic:"服装设计", name: "服装设计", num: 1, id: 5 },
         {goods:"digital/digital", pic:"其他", name: "其他", num: 1, id: 6 },
-        {},{},{},{},{},
+        {},{},{},{},{}
       ],
       [
         {goods:"digital/digital", pic:"吉他", name: "吉他", num: 1, id: 5 },

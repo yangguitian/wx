@@ -16,7 +16,7 @@ Page({
       {icon:"签到记录.png", name:"签到记录"},
       {icon:"收货地址.png", name:"收货地址"},
       {icon:"消息中心.png", name:"消息中心"},
-      {icon:"发布商品.png", name:"发布商品"},
+      {icon:"发布商品.png", name:"发布商品", url:"publish/publish"},
       {icon:"我的商品.png", name:"我的商品"},
       {icon:"未认证.png", name:"未认证"},
       {icon:"开通学校.png", name:"开通学校"},

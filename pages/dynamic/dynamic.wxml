@@ -3,7 +3,7 @@
   <view class="big-box-title">资讯</view>
 </view>
 <swiper class="swiper" indicator-dots="ture" autoplay="ture" interval="5000" circular="ture" indicator-color="#fff"
-  indicator-active-color="blue">
+  indicator-active-color="blue ">
   <swiper-item class="swiper-item">
     <image class="img" src="/images/资讯4.jpg"></image>
   </swiper-item>

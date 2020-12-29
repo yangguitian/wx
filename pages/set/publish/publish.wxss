@@ -1,0 +1,10 @@
+/* pages/set/publish/publish.wxss */
+.box {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.van-cell {
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(219, 219, 219) !important;
+}

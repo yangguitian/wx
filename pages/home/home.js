@@ -20,7 +20,7 @@ Page({
       { pic:"篮球1.png", text:"篮球 翻毛皮篮球", price:"40.00", url:"details-2/details-2"},
       { pic:"内存条2.jpg", text:"金士顿 海盗船 芝奇 DDR3 三代内存条 4G ", price:"179", url:"details-4/details-4"},
       { pic:"平板1.png", text:"ipad 2017 32g 苹果平板电脑 ios系统", price:"1690", url:"details-1/details-1"},
-      { pic:"手机1.jpg", text:"多普达S1 搭载了全新的windows mobile 6.0操作系统", price:"1460"},
+      { pic:"手机2.jpg", text:"多普达S1 搭载了全新的windows mobile 6.0操作系统", price:"1460"},
     ]
   },
   todynamic:function(){
