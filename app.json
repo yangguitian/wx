@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/goods/transportation/transportation",
     "pages/set/publish/publish",
     "pages/goods/sports/sports",
     "pages/my/my",
@@ -25,7 +26,7 @@
     "pages/goods/clothes/clothes",
     "pages/goods/device/device",
     "pages/goods/books/books",
-    "pages/goods/transportation/transportation",
+    
     "pages/goods/articles/articles",
     "pages/goods/devise/devise",
     "pages/goods/details/details-2/details-2",

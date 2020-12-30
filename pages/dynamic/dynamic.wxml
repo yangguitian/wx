@@ -3,15 +3,15 @@
   <view class="big-box-title">资讯</view>
 </view>
 <swiper class="swiper" indicator-dots="ture" autoplay="ture" interval="5000" circular="ture" indicator-color="#fff"
-  indicator-active-color="blue ">
+  indicator-active-color="#ff410f">
   <swiper-item class="swiper-item">
-    <image class="img" src="/images/资讯4.jpg"></image>
+    <image class="img" src="http://www.gxun.edu.cn/images/60-01.jpg"></image>
   </swiper-item>
   <swiper-item>
-    <image class="img" src="/images/资讯9.png"></image>
+    <image class="img" src="http://www.gxun.edu.cn/images/fkhb1.jpg"></image>
   </swiper-item>
   <swiper-item>
-    <image class="img" src="/images/资讯8.jpg"></image>
+    <image class="img" src="http://www.gxun.edu.cn/images/17/05/17/1le57mtf7p/003.jpg"></image>
   </swiper-item>
 </swiper>
 

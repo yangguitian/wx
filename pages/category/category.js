@@ -59,13 +59,13 @@ Page({
         {}
       ],
        [
-        {goods:"digital/digital", pic:"自行车", name: "自行车", num: 1, id: 5 },
-        {goods:"digital/digital", pic:"旱冰鞋", name: "旱冰鞋", num: 1, id: 5 },
-        {goods:"digital/digital", pic:"平衡车", name: "平衡车", num: 1, id: 5 },
-        {goods:"digital/digital", pic:"滑板", name: "滑板", num: 1, id: 5 },
-        {goods:"digital/digital", pic:"摩托车", name: "摩托车", num: 1, id: 5 },
-        {goods:"digital/digital", pic:"电动车", name: "电动车", num: 1, id: 5 },
-        {goods:"digital/digital", pic:"其他", name: "其他", num: 1, id: 6 },
+        {goods:"transportation/transportation", pic:"自行车", name: "自行车", num: 1, id: 5 },
+        {goods:"transportation/transportation", pic:"旱冰鞋", name: "旱冰鞋", num: 1, id: 5 },
+        {goods:"transportation/transportation", pic:"平衡车", name: "平衡车", num: 1, id: 5 },
+        {goods:"transportation/transportation", pic:"滑板", name: "滑板", num: 1, id: 5 },
+        {goods:"transportation/transportation", pic:"摩托车", name: "摩托车", num: 1, id: 5 },
+        {goods:"transportation/transportation", pic:"电动车", name: "电动车", num: 1, id: 5 },
+        {goods:"transportation/transportation", pic:"其他", name: "其他", num: 1, id: 6 },
         {}, {}, {}
       ],
       [

@@ -18,13 +18,14 @@ page {
 }
 .swiper {
   width: 100%;
-  height: 175px;
+  height: 125px;
 }
 .swiper-item {
   width: 100%;
 }
 .img {
   width: 100%;
+  height: 100%;
 }
 .big-box {
   width: 95%;

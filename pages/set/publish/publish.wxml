@@ -18,6 +18,6 @@
   </van-cell-group>
 
   <van-button size="large" type="info" round="true" color="#f06c7a">
-    按钮
+    发布
   </van-button>
 </view>
