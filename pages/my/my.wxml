@@ -4,7 +4,7 @@
     <van-icon class="icon01" name="setting-o" size="2em" bindtap="goTosetting" />
   </view>
   <view class="userinfo">
-    <button class="btn" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录
+    <button class="btn" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录
     </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="user-icon" src="{{userInfo.avatarUrl}}" mode="cover" ></image>
