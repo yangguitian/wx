@@ -79,12 +79,12 @@
   <view class="recommend-title">※ 热门推荐 ※</view>
 </view>
 <van-grid column-num="2">
-  <van-grid-item use-slot wx:for="{{goods}}" wx:key="item" url="/pages/goods/details/{{item.url}}">
+  <van-grid-item use-slot wx:for="{{goods}}" wx:key="item">
     <view class="img">
-      <image src="/images/商品/{{item.pic}}" mode="widthFix" />
+      <image src="{{'http://localhost:80' + item.goods_image}}" mode="widthFix" />
     </view>
-    <text class="text">{{item.text}}</text>
-    <text class="price">￥{{item.price}}</text>
+    <text class="text">{{item.goods_name}}</text>
+    <text class="price">￥{{item.goods_price}}</text>
   </van-grid-item>
 </van-grid>
 <van-divider contentPosition="center" customStyle="color: #8d8d8d; border-color: #ccc; font-size: 13px;">没有更多了</van-divider>
