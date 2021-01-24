@@ -16,13 +16,13 @@
 </swiper>
 
 <view class="big-box">
-  <navigator class="new-box" wx:for="{{new}}" wx:key="item" url="/pages/dynamic/{{item.url}}">
-    <view class="time">{{item.time}}</view>
+  <navigator class="new-box" wx:for="{{news}}" wx:key="item">
+    <view class="time">{{item.news_date}}</view>
     <view class="pic">
-      <image src="/images/资讯/{{item.pic}}.jpg"></image>
+      <image src="{{'http://localhost:80' + item.news_image}}"></image>
     </view>  
     <view class="text">
-      <view>{{item.text}}</view>
+      <view>{{item.news_name}}</view>
     </view>  
   </navigator>
 

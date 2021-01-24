@@ -2,15 +2,15 @@
 <view class="top">
   <van-button  wx:for="{{menu1}}" wx:key="item" round type="info" size="mini" plain color="#666">{{item.name}}</van-button>
 </view>
-<view wx:for="{{menu}}" wx:key="item">
+<view wx:for="{{pl}}" wx:key="item">
   <view class="middle-pic">
-    <image src="/images/图标/{{item.img}}.png"></image>
-    <view class="middle-name">{{item.tel}}</view>
+    <image src="{{'http://localhost:80' + item.pl_image}}"></image>
+    <view class="middle-name">{{item.pl_name}}</view>
   </view>
   <view class="talk-box">
-    <view class="talk">{{item.comments}}</view>
-    <van-rate readonly value="{{ item.value }}" size="{{ 20 }}" bind:change="onChange" />
-    <view class="time">{{item.time}}</view>
+    <view class="talk">{{item.pl_name}}说：{{item.pl_text}}</view>
+    <van-rate readonly value="4" size="{{ 20 }}" bind:change="onChange" />
+    <view class="time">{{item.pl_date}}</view>
   </view>
 </view>
 

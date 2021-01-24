@@ -1,6 +1,10 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/set/comments/comments",
+    "pages/set/buy/buy",
+    "pages/set/work/work",
+    "pages/dynamic/dynamic",
     "pages/goods/transportation/transportation",
     "pages/set/publish/publish",
     "pages/goods/sports/sports",
@@ -11,11 +15,8 @@
     "pages/index/index",
     "pages/test/test",
     "pages/set/coupon/coupon",
-    "pages/set/work/work",
-    "pages/dynamic/dynamic",
     "pages/dynamic/new-1/new-1",
     "pages/category/category",
-    "pages/set/comments/comments",
     "pages/goods/digital/digital",
     "pages/set/personal/personal",
     "pages/setting/setting",
@@ -26,7 +27,6 @@
     "pages/goods/clothes/clothes",
     "pages/goods/device/device",
     "pages/goods/books/books",
-    
     "pages/goods/articles/articles",
     "pages/goods/devise/devise",
     "pages/goods/details/details-2/details-2",

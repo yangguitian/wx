@@ -51,6 +51,9 @@ page {
   height: 150px;
   margin: 0 auto;
 }
+.talk {
+  margin-left: 60px;
+}
 .van-cell__value {
   color: var(--cell-value-color,#06c05f) !important;
 }

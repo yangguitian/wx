@@ -1,33 +1,27 @@
-// pages/set/comments/comments.js
+// pages/set/work/work.js
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {
-    menu1:[
-      {name:"全部"},
-      {name:"好评"},
-      {name:"中评"},
-      {name:"差评"}
-    ],
-    pl:[
-      {img:"头像2", tel:"18997875727", comments:"感觉还不错", value:"3", time:"2020-12-23"},
-      {img:"头像3", tel:"call me", comments:"挺好的呀", value:"5", time:"2020-12-25"},
-      {img:"头像5", tel:"我是猫头鹰", comments:"阿巴阿巴阿巴", value:"1", time:"2020-12-27"}
-    ]
-  },
-  
+  // data: {
+  //   buy:[
+  //     {title1:"招聘兼职销售人员", title2:"按提成结算", title3:"地区无限制 | 长期", moshi:"自营", good1:"福利好", good2:"提成高", pic:"头像6.png", name:"深圳市言信网络科技有限公司", num:"招5人", time:"2019-10-08"},
+  //     {title1:"招聘传单派发员", title2:"按天结算", title3:"地区无限制 | 短期", moshi:"自营", good1:"轻松活", good2:"待遇好", pic:"头像3.png", name:"相思湖能力有限公司", num:"招2人", time:"2020-2-25"},
+  //     {title1:"招聘兼职售货员", title2:"按月结算", title3:"地区无限制 | 长期", moshi:"自营", good1:"福利好", good2:"提成高", pic:"头像4.png", name:"天天聚划算超市", num:"招1人", time:"2020-12-11"},
+  //   ]
+  // },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.plchaxun();
+    this.buychaxun();
   },
-  plchaxun() {
+  buychaxun() {
     var that = this;
     wx.request({  //记得这个URL如果你没有域名的话  不改东西的话是会报错的
-      url: 'http://localhost:80/api/pl',  //请求Java的URL
+      url: 'http://localhost:80/api/buy',  //请求Java的URL
       method: 'get',                                        //提交方式
 
       success: function (res) {   //接受后台的回调函数
@@ -36,7 +30,7 @@ Page({
         console.log("this:", that);
         that.setData({
           // 数组拿到data里的值 页面需要遍历
-          pl: resData,
+          buy: resData,
         })
       }
     })
