@@ -78,8 +78,10 @@
 <view class="recommend-box">
   <view class="recommend-title">※ 热门推荐 ※</view>
 </view>
+
+
 <van-grid column-num="2">
-  <van-grid-item use-slot wx:for="{{goods}}" wx:key="item">
+  <van-grid-item use-slot wx:for="{{goods}}" wx:key="item" url="/pages/goods/details/details-4/details-4">
     <view class="img">
       <image src="{{'http://localhost:80' + item.goods_image}}" mode="widthFix" />
     </view>
